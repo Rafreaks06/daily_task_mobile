@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 void main() {
   runApp(MainApp());
 }
@@ -75,7 +77,7 @@ class MainApp extends StatelessWidget {
                     const SizedBox(height: 24),
                     const StatItem(count: '1.2K', label: 'Followers'),
                     const SizedBox(width: 24),
-                    StatItem(count: 42, label: 'Following'),
+                    const StatItem(count: '42', label: 'Following'),
                   ],
                 ),
               ),
