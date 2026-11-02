@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
   ProfilePage({super.key});
-  final String userName = 'I Ketut Gunawan, S.Kom, M.T.I.';
-  final String role = 'Senior Backend Engineer & Dosen';
+  final String userName = 'Muhammad Raffi Ar-rosyid';
+  final String role = 'Mahasiswa Teknik Semester 5';
   final List<String> experiences = [
-    'Senior Backend Engineer - EDC Bank DKI',
-    'Backend & System Architect - Secure Payment EDC',
-    'Lead Developer - Aplikasi Sekurindo',
-    'Backend Engineer - Pengembangan Sistem E-money',
+    'Membuat Website POS (Point of Sale)',
+    'Pengembangan Aplikasi Mobile Flutter',
+    'Pengembangan Sistem Informasi Web',
+    'Perancangan UI/UX Aplikasi',
   ];
 
   @override
